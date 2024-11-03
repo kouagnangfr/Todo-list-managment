@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.task
+{
+    display: block;
+    height: 15em;
+    width: 15rem;
+    border: 1px solid yellow;
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 0 0 3px whitesmoke;
+    background-color: var(--third-bg-color);
+}
+
+.taskWrapper
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+}
+
+.taskWrapper .taskTitle
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.taskWrapper .taskDescription
+{
+    font-size: 0.9rem;
+    height: 6rem;
+    overflow: hidden;
+    font-family: cursive;
+    color: rgb(186, 185, 182);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.taskWrapper .taskDate
+{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: cursive;
+    margin-bottom: 0.5em;
+}
+.taskWrapper .taskButton
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.taskWrapper .taskStatus
+{
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 0.4rem 0.5rem;
+  box-shadow: 0 0 3px whitesmoke;
+  background-color: var(--main-btn-color);
+  font-size: 0.8rem; 
+  font-weight: 600;
+}
+
+.incompleted
+{
+    background-color: red;
+}
+
+.settingBtn
+{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+

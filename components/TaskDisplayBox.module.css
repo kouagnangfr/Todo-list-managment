@@ -1,0 +1,134 @@
+.section
+{
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: var(--second-bg-color);
+    box-shadow: 0 0 3px whitesmoke;
+    position: relative;
+}
+
+.warpper
+{
+    display: flex;
+    height: 100%;
+    padding: 2rem 1.5rem;
+    color: whitesmoke;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.header
+{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.header .titre
+{
+    position: relative;
+    padding-bottom: 0.8rem;
+}
+
+.titre::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--main-btn-color);
+}
+
+.titre::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    width: 8%; 
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--main-btn-color);
+}
+
+.header .addTaskButton
+{
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid gray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-bg-color);
+    box-shadow: 0 0 3px whitesmoke;
+    cursor: pointer;
+}
+
+.header .addTaskButton:hover
+{
+    transition: ease-in-out 0.4s;
+    background-color: var(--main-bg-color);
+}
+
+.taskDisplaySection
+{
+    flex-grow: 1;
+}
+
+.taskGrid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items:center;
+    height: 32rem;
+    row-gap: 22px;
+    overflow-y: auto;
+}
+
+.addButton
+{
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    border: 1px dashed gray;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family: cursive;
+    cursor:pointer;
+    color: var(--main-txt-color);
+}
+
+.addButton .plus
+{
+    font-size: 2rem;
+    align-items:center;
+    justify-content:center;
+    padding: 5px;
+    color: var(--main-txt-color);
+}
+
+.formContainer
+{
+    margin: 0 auto;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .taskGrid 
+    {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  

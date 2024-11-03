@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root
+{
+  --main-bg-color: #191919;
+  --second-bg-color: #242424;
+  --third-bg-color: #393E46;
+  --main-txt-color: #63686E;
+  --main-btn-color : #1A5D1A;
+  --second-btn-color: #B31312;
+}

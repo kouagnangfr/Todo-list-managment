@@ -1,0 +1,29 @@
+.html
+{
+    max-width: 1500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.body 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+}
+
+.main 
+{
+    display: flex;
+    padding: 1rem;
+}
+
+.wrapper
+{
+    display: flex;
+    min-height: 91vh;
+    margin: 2rem;
+    gap: 2rem;
+}

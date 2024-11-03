@@ -1,0 +1,114 @@
+.AddForm
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: var(--third-bg-color);
+    padding: 1rem;
+    font-family: cursive;
+    box-shadow: 0px 0px 55px whitesmoke;
+    border-radius: 15px;
+    width: 30rem;
+}
+
+.AddForm label
+{
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.AddForm h2
+{
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.formGroup
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    gap: 0.4rem;
+}
+
+.formGroup input
+{
+    background-color: var(--second-bg-color);
+    color: whitesmoke;
+    border-radius: 10px;
+    height: 2rem;
+    width: 100%;
+    padding: 0.3em;
+    font-size: 0.8em;
+}
+
+.formGroup textarea
+{
+    height: 5rem;
+    background-color: var(--second-bg-color);
+    color: gray;
+    resize: none;
+    width: 100%;
+    padding: 0.3em;
+    font-size: 0.8em;
+    border-radius: 10px;
+}
+
+.formGroup span
+{
+    color: var(--second-btn-color);
+    font-size: 0.8rem;
+}
+
+.formGroup input[type="checkbox"]
+{
+   height: 1rem;
+}
+
+.AddForm button
+{
+    width: 7rem;
+    background-color: var(--main-btn-color);
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.check
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.check input
+{
+    width: 1rem;
+}
+
+.button
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formHeader
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.formHeader span
+{
+    font-size: 2rem;
+    color: red;
+    margin-right: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+}

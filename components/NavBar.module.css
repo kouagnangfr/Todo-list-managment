@@ -1,0 +1,96 @@
+.section
+{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    border-radius: 10px;
+    background-color: var(--second-bg-color);
+    color: var(--main-txt-color);
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+    box-shadow: 0 0 3px whitesmoke;
+}
+
+.profil
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil span
+{
+    display: block;
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 0.3rem 0;
+    font-family: cursive;
+}
+
+.profilPicture
+{
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.signOutButton
+{
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: var(--main-bg-color);
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.signOutButton:hover
+{
+    transition: ease-in-out 0.4s;
+    color: var(--main-txt-color);
+    background-color: var(--third-bg-color);
+    
+}
+
+.navLinks
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 0.2rem;
+}
+
+.navLinks div
+{
+    display: flex;
+    padding: 0.8rem 0;
+    padding-left: 3em;
+}
+
+.navLinks .active
+{
+    background-color: var(--third-bg-color);
+    color: whitesmoke;
+    border-right: 10px solid var(--main-btn-color);
+    border-radius: 10px;
+    box-shadow: 0 0 2px whitesmoke;
+}
+
+.navLinks div:hover
+{
+    background-color: var(--third-bg-color);
+    color: whitesmoke;
+    border-right: 10px solid var(--main-btn-color);
+    border-radius: 10px;
+    box-shadow: 0 0 2px whitesmoke;
+}
